@@ -65,10 +65,7 @@ public class CashActionHandler implements ActionListener {
 	      msal.setCus_no(usedCusNum);
 	      
 	      this.tel = tel;
-	      System.out.println("cash이벤트에서 확인하는 포인트 값 : " + msal.getUsePoint());
-	      System.out.println("cash이벤트에서 확인하는 Cus 값 : " + msal.getCus_no());
-//	      System.out.println("cash이벤트에서 확인하는 포인트 값 : " + usedPoint);
-//	      System.out.println("cash이벤트에서 확인하는 Cus 값 : " + usedCusNum);
+
 	   }
 	
 
